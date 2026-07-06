@@ -4,7 +4,7 @@
   --wine-light: #a9436a;
   --sand: #c9b79c;
   --sand-dark: #a9926f;
-  --cream: #faf6f0;
+  --cream: #f6f6f4;
   --ivory: #fffdfb;
   --charcoal: #2b2420;
   --charcoal-soft: #5c5248;
@@ -123,7 +123,7 @@ img { max-width: 100%; display: block; }
 /* Hero */
 .hero {
   padding: 90px 0 80px;
-  background: linear-gradient(180deg, var(--cream) 0%, #f2e9dd 100%);
+  background: linear-gradient(180deg, var(--cream) 0%, #ebeae6 100%);
   border-bottom: 1px solid var(--border);
 }
 .hero-inner { max-width: 720px; }
