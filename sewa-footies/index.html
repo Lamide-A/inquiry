@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEWA — Handcrafted Footwear</title>
+<meta name="description" content="SEWA — handcrafted suede and leather slides and sandals. Shop the collection.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%236e1e3a'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' fill='%23fffdfb' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<div id="toast" class="toast" aria-live="polite"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo">SEWA</a>
+    <nav class="main-nav">
+      <a href="#shop">Shop</a>
+      <a href="#story">Our Story</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-btn" id="cartToggle" aria-label="Open cart">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 8h12l-1.2 11.2a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 8Z" stroke="currentColor" stroke-width="1.6"/><path d="M9 8V6a3 3 0 0 1 6 0v2" stroke="currentColor" stroke-width="1.6"/></svg>
+      <span class="cart-count" id="cartCount">0</span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Handcrafted in Nigeria</p>
+      <h1>Slides &amp; sandals,<br>made to be worn well.</h1>
+      <p class="hero-copy">Suede, leather and hardware sourced with care — every SEWA pair is built for the way you actually live. Buckles that hold, straps that last, soles that carry you all day.</p>
+      <div class="hero-cta">
+        <a href="#shop" class="btn btn-primary">Shop the Collection</a>
+        <a href="https://instagram.com/sewa_footies" target="_blank" rel="noopener" class="btn btn-ghost">@sewa_footies</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="shop" id="shop">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>The Collection</h2>
+        <p>Five signature styles. New colorways added regularly.</p>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </div>
+  </section>
+
+  <section class="story" id="story">
+    <div class="wrap story-inner">
+      <div class="story-copy">
+        <p class="eyebrow">Our Story</p>
+        <h2>Built by hand, one pair at a time.</h2>
+        <p>SEWA started with a simple idea: footwear that feels premium without the import markup. Every pair is cut, stitched and finished in-house, then packed and shipped straight to your door. No middlemen, no compromises on the details — the buckle that actually sits flush, the sole that doesn't flatten by week two.</p>
+        <p>Follow along on Instagram for restocks, new colorways, and behind-the-scenes from the workshop.</p>
+      </div>
+      <div class="story-badge">
+        <div class="badge-mark">Sewa</div>
+        <p>est. handcrafted footwear</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="promise">
+    <div class="wrap promise-grid">
+      <div class="promise-item">
+        <h3>Genuine Suede &amp; Leather</h3>
+        <p>No synthetics. Every strap is cut from real hide.</p>
+      </div>
+      <div class="promise-item">
+        <h3>Pay on Delivery Option</h3>
+        <p>Order with confidence, pay when it arrives.</p>
+      </div>
+      <div class="promise-item">
+        <h3>Nationwide Delivery</h3>
+        <p>Shipped from our workshop to your door.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="contact">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <div class="logo">SEWA</div>
+      <p>Handcrafted slides &amp; sandals.</p>
+    </div>
+    <div class="footer-contact">
+      <p><a href="https://instagram.com/sewa_footies" target="_blank" rel="noopener">@sewa_footies</a></p>
+      <p><a href="tel:+2348067111173">0806 711 1173</a></p>
+      <p><a href="https://wa.me/2348067111173" target="_blank" rel="noopener">Order on WhatsApp</a></p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>&copy; 2026 SEWA. Demo site — built to show what's possible.</p>
+  </div>
+</footer>
+
+<a class="whatsapp-fab" href="https://wa.me/2348067111173" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.09c-.24.68-1.4 1.33-1.93 1.4-.5.07-1.12.1-1.8-.12-.42-.13-.96-.3-1.65-.6-2.9-1.25-4.8-4.16-4.94-4.35-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.58.82 2 .89 2.14.07.15.12.32.02.51-.1.19-.15.31-.3.48-.15.17-.31.38-.44.5-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.2.72-.84.91-1.13.19-.29.39-.24.65-.14.27.1 1.7.8 1.99.95.29.14.48.22.55.34.07.13.07.72-.17 1.4Z"/></svg>
+</a>
+
+<!-- Cart Drawer -->
+<div class="overlay" id="overlay"></div>
+<aside class="cart-drawer" id="cartDrawer">
+  <div class="cart-drawer-head">
+    <h3>Your Bag</h3>
+    <button id="cartClose" aria-label="Close cart">&times;</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-drawer-foot">
+    <div class="cart-total-row">
+      <span>Subtotal</span>
+      <span id="cartSubtotal">₦0</span>
+    </div>
+    <button class="btn btn-primary btn-block" id="checkoutBtn">Checkout</button>
+  </div>
+</aside>
+
+<!-- Product Quick View -->
+<div class="modal-overlay" id="productModalOverlay">
+  <div class="modal product-modal" id="productModal"></div>
+</div>
+
+<!-- Checkout Modal -->
+<div class="modal-overlay" id="checkoutOverlay">
+  <div class="modal checkout-modal" id="checkoutModal"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
